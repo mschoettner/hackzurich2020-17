@@ -46,8 +46,15 @@ def food_recognition(path, user, token):
     return(food_items, image_data)
 
 def nutrition_values(image_data, subclasses):
+    """Function to extract nutritional values from image annotations.
+    Takes as arguments the full image data, and a list of the subclasses
+    present on the picture"""
     # this somehow needs to get the user input for each subclass
     # get calories and macronutrients for chosen subclasses
+    for sub in subclasses:
+        #find id for subclass
+        #get calories based on id
+
     pass
 
 
